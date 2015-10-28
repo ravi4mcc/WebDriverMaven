@@ -26,8 +26,8 @@ public class LoginTest
 		driver.get("http://gmail.com");
 		
 		driver.findElement(By.id("Email")).sendKeys("ravi4mcc@gmail.com");
-		driver.findElement(By.id("SignIn")).click();
-		driver.findElement(By.id("Passwd")).sendKeys("Meher");
+		/*driver.findElement(By.id("SignIn")).click();
+		driver.findElement(By.id("Passwd")).sendKeys("Meher");*/
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 	
