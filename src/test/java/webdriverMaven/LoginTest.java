@@ -16,13 +16,13 @@ public class LoginTest
 	
 	public void setUp()
 	{
-		driver = new Chromedriver();
+		driver = new ChromeDriver();
 	}
 	
 	@Test
 	public void doLogin()
 	{
-		driver = new Chromedriver();
+		driver = new ChromeDriver();
 		driver.get("http://gmail.com");
 		
 		driver.findElement(By.id("Email")).sendKeys("ravi4mcc@gmail.com");
